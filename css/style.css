@@ -9,19 +9,15 @@ body {
 
 .navbar {
     z-index: 1;
-    background-color: black;
+    background-color: #1a1c1d;
 }
 
 
-.nav-heading {
-    color: #da7db3;
-    font-weight: 500;
+.nav-heading a {
+    color: #e9ecef;
+    font-weight: 400;
 }
 
-.nav-options {
-    color: #da7db3;
-    font-weight: 500;
-}
 
 
 
@@ -29,11 +25,11 @@ body {
 
 /*--------------------------------------------------------------------------------------------------------------------Logo/Background--*/
 
-.logo-container {
+.bk-container {
     height: 100vh;
 
 
-    background: url(images/foblogo.png) no-repeat center center; 
+    background: url(images/face.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -46,6 +42,13 @@ body {
     position: relative;
 
     margin-top: -5px;
+}
+
+.logo {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    margin-top: 40px;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------Main Header--*/
@@ -69,7 +72,7 @@ body {
 .container-wrapper-about{
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #9fccf0;
+    background-color: #e9ecef;
     padding-top: 50px;
 }
 
@@ -78,27 +81,45 @@ body {
     padding-bottom: 50px;
 }
 
+.features-header {
+    margin-bottom: 20px;
+}
+
 /*--------------------------------------------------------------------------------------------------------------------Features--*/
 
 .container-wrapper-features {
     background-color: #f0b2d6;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
 /*--------------------------------------------------------------------------------------------------------------------Footer--*/
 
 .container-wrapper-footer {
-    background-color: black;
+    background-color: #1a1c1d;
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }    
 
-.social-footer {
+.social-footer a {
     font-size: xxx-large;
-    color: #da7db3;
+    color: #e9ecef;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-container h6 {
+    color: #e9ecef;
+}
+
+.footer-container p {
+    color: #e9ecef;
+    font-size: xx-small;
+    margin-bottom: 0;
 }
 
 
@@ -109,16 +130,16 @@ body {
     font-size: x-large;
     border-radius: 50px;
     width: 200px;
-    background-color: #3ebb79;
-    border-color: #3ebb79;
+    background-color: #117a8b;
+    border-color: #117a8b;
 }
 
 .btn-info:hover,
 .btn-info:active,
 .btn-info:focus,
 .btn-info:active:focus {
-    background-color: #18a85c;
-    border-color: #18a85c;
+    background-color: #18b7cf;
+    border-color: #18b7cf;
     color: white;
 }
 
@@ -127,6 +148,7 @@ body {
     font-weight: 600;
     background-color: #eb358d;
     border-radius: 10px;
+    margin-top: 10px;
 }
 
 .btn-discover:hover,
