@@ -2,7 +2,30 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
+    
 }
+
+/*--------------------------------------------------------------------------------------------------------------------Navbar--*/
+
+.navbar {
+    z-index: 1;
+    background-color: black;
+}
+
+
+.nav-heading {
+    color: #da7db3;
+    font-weight: 500;
+}
+
+.nav-options {
+    color: #da7db3;
+    font-weight: 500;
+}
+
+
+
+
 
 /*--------------------------------------------------------------------------------------------------------------------Logo/Background--*/
 
@@ -10,21 +33,29 @@ body {
     height: 100vh;
 
 
-    background: url(images/fob_logo.png) no-repeat center center fixed; 
+    background: url(images/foblogo.png) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
-    display: flex;
-    align-items: flex-end;
+    display:flex;    
+    align-items:flex-end;
     justify-content: center;
+    
+    position: relative;
+
+    margin-top: -5px;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------Main Header--*/
 
 .jumbotron {
     background-color: transparent;
+    padding-top: 700px;
+    padding-bottom: 60px;
+    margin-top: 0px;
+    border-top-width: 50px;
 }
 
 .main-header {
@@ -33,34 +64,76 @@ body {
     margin-bottom: 30px;
 }
 
-.features-container {}
+/*--------------------------------------------------------------------------------------------------------------------Features--*/
 
-.footer-container {}
-
-
-i {
-    font-size: 25px;
+.container-wrapper-about{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #9fccf0;
+    padding-top: 50px;
 }
 
-.navbar-expand-lg{
-    background-color: #96c4ea;
-    margin-bottom: -2px;
+.about-container p {
+    margin-bottom: 0px;
+    padding-bottom: 50px;
 }
 
-.image {
-    object-fit: contain;
-}
-.features {
-    border-top-width: -2px;
-    margin-top: -2px;
-    
+/*--------------------------------------------------------------------------------------------------------------------Features--*/
+
+.container-wrapper-features {
+    background-color: #f0b2d6;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.btn-sm {
-    background-color: #96c4ea;
+
+/*--------------------------------------------------------------------------------------------------------------------Footer--*/
+
+.container-wrapper-footer {
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}    
+
+.social-footer {
+    font-size: xxx-large;
+    color: #da7db3;
 }
 
-footer {
-    border-top-width: 20px;
-    margin-top: 20px;
+
+/*--------------------------------------------------------------------------------------------------------------------buttons--*/
+
+.btn-info {
+    font-weight: bold;
+    font-size: x-large;
+    border-radius: 50px;
+    width: 200px;
+    background-color: #3ebb79;
+    border-color: #3ebb79;
+}
+
+.btn-info:hover,
+.btn-info:active,
+.btn-info:focus,
+.btn-info:active:focus {
+    background-color: #18a85c;
+    border-color: #18a85c;
+    color: white;
+}
+
+.btn-discover {
+    color: white;
+    font-weight: 600;
+    background-color: #eb358d;
+    border-radius: 10px;
+}
+
+.btn-discover:hover,
+.btn-discover:active,
+.btn-discover:focus,
+.btn-discover:active:focus {
+    background-color: #cf1770;
+    border-color: #cf1770;
+    color: white;
 }
