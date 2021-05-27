@@ -12,35 +12,25 @@ body {
     background-color: #1a1c1d;
 }
 
-
 .nav-heading a {
-    color: #e9ecef;
+    color: floralwhite;
     font-weight: 400;
 }
-
-
-
-
-
 
 /*--------------------------------------------------------------------------------------------------------------------Logo/Background--*/
 
 .bk-container {
     height: 100vh;
 
-
-    background: url(images/face.jpg) no-repeat center center; 
+    background: url(../images/face.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display:flex;    
     align-items:flex-end;
     justify-content: center;
-    
     position: relative;
-
     margin-top: -5px;
 }
 
@@ -63,16 +53,16 @@ body {
 
 .main-header {
     font-weight: bold;
-    color: aliceblue;
+    color: floralwhite;
     margin-bottom: 30px;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------Features--*/
 
 .container-wrapper-about{
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #e9ecef;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: floralwhite;
     padding-top: 50px;
 }
 
@@ -95,7 +85,6 @@ body {
     padding-right: 20px;
 }
 
-
 /*--------------------------------------------------------------------------------------------------------------------Footer--*/
 
 .container-wrapper-footer {
@@ -107,21 +96,20 @@ body {
 
 .social-footer a {
     font-size: xxx-large;
-    color: #e9ecef;
+    color: floralwhite;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 .footer-container h6 {
-    color: #e9ecef;
+    color: floralwhite;
 }
 
 .footer-container p {
-    color: #e9ecef;
+    color: floralwhite;
     font-size: xx-small;
     margin-bottom: 0;
 }
-
 
 /*--------------------------------------------------------------------------------------------------------------------buttons--*/
 
