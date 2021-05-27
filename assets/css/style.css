@@ -17,11 +17,10 @@ body {
     font-weight: 400;
 }
 
-/*--------------------------------------------------------------------------------------------------------------------Logo/Background--*/
+/*--------------------------------------------------------------------------------------------------------------------Home - Logo/Background--*/
 
 .bk-container {
     height: 100vh;
-
     background: url(../images/face.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -41,7 +40,21 @@ body {
     margin-top: 2.5rem;
 }
 
-/*--------------------------------------------------------------------------------------------------------------------Main Header--*/
+/*--------------------------------------------------------------------------------------------------------------------Contact - Main Header--*/
+
+.bk-contact-container {
+    height: 100vh;
+    background-color: floralwhite;
+}
+
+.contact-text {
+    padding-top: 50px;
+    margin-bottom: 0px;
+    font-size: xxx-large;
+    font-weight: 700;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------Home - Main Header--*/
 
 .jumbotron {
     background-color: transparent;
@@ -146,4 +159,57 @@ body {
     background-color: #cf1770;
     border-color: #cf1770;
     color: white;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------Forms--*/
+
+form { 
+    max-width: 420px;
+    margin: auto;
+    padding-top: 50px;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.feedback-input {
+  color: #1a1c1d;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #1a1c1d;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { 
+    border:2px solid #1a1c1d;
+ }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  width: 100%;
+  background:#1a1c1d;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:floralwhite;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover {
+    background:#313a3f;
 }

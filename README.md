@@ -32,3 +32,4 @@ In this section, you need to convince the assessor that you have conducted enoug
 ## References
 
     *   Bootstrap for nav bar
+    *   https://codepen.io/ZachSaucier/pen/AIJpe (Contact Form)
