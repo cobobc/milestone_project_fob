@@ -31,58 +31,58 @@ body {
     align-items:flex-end;
     justify-content: center;
     position: relative;
-    margin-top: -5px;
+    margin-top: -0.313rem;
 }
 
 .logo {
     z-index: 1;
     position: absolute;
     top: 0;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------Main Header--*/
 
 .jumbotron {
     background-color: transparent;
-    padding-top: 700px;
-    padding-bottom: 60px;
-    margin-top: 0px;
-    border-top-width: 50px;
+    padding-top: 43.75rem;
+    padding-bottom: 3.75rem;
+    margin-top: 0;
+    border-top-width: 3.125rem;
 }
 
 .main-header {
     font-weight: bold;
     color: floralwhite;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------Features--*/
 
 .container-wrapper-about{
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 0.313rem;
+    padding-right: 0.313rem;
     background-color: floralwhite;
-    padding-top: 50px;
+    padding-top: 3.125rem;
 }
 
 .about-container p {
-    margin-bottom: 0px;
-    padding-bottom: 50px;
+    margin-bottom: 0;
+    padding-bottom: 3.125rem;
 }
 
 .features-header {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------Features--*/
 
 .container-wrapper-features {
     background-color: #f0b2d6;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------Footer--*/
@@ -90,15 +90,15 @@ body {
 .container-wrapper-footer {
     background-color: #1a1c1d;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 1.25rem;
+    padding-bottom: 0.625rem;
 }    
 
 .social-footer a {
     font-size: xxx-large;
     color: floralwhite;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
 }
 
 .footer-container h6 {
@@ -116,8 +116,8 @@ body {
 .btn-info {
     font-weight: bold;
     font-size: x-large;
-    border-radius: 50px;
-    width: 200px;
+    border-radius: 3.125rem;
+    width: 12.5rem;
     background-color: #117a8b;
     border-color: #117a8b;
 }
@@ -135,8 +135,8 @@ body {
     color: white;
     font-weight: 600;
     background-color: #eb358d;
-    border-radius: 10px;
-    margin-top: 10px;
+    border-radius: 0.625rem;
+    margin-top: 0.625rem;
 }
 
 .btn-discover:hover,
