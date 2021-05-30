@@ -17,91 +17,6 @@ body {
     font-weight: 400;
 }
 
-/*--------------------------------------------------------------------------------------------------------------------Home - Logo/Background--*/
-
-.bk-container {
-    height: 100vh;
-    background: url(../images/face.jpg) no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display:flex;    
-    align-items:flex-end;
-    justify-content: center;
-    position: relative;
-    margin-top: -0.313rem;
-}
-
-.logo {
-    z-index: 1;
-    position: absolute;
-    top: 0;
-    margin-top: 2.5rem;
-}
-
-/*--------------------------------------------------------------------------------------------------------------------Credits - Main Header--*/
-
-
-
-/*--------------------------------------------------------------------------------------------------------------------Contact - Main Header--*/
-
-.bk-contact-container {
-    height: 100vh;
-    background-color: floralwhite;
-}
-
-.contact-text {
-    padding-top: 50px;
-    margin-bottom: 0px;
-    font-size: xxx-large;
-    font-weight: 700;
-}
-
-/*--------------------------------------------------------------------------------------------------------------------Home - Main Header--*/
-
-.jumbotron {
-    background-color: transparent;
-    padding-top: 43.75rem;
-    padding-bottom: 3.75rem;
-    margin-top: 0;
-    border-top-width: 3.125rem;
-}
-
-.main-header {
-    font-weight: bold;
-    color: floralwhite;
-    margin-bottom: 1.875rem;
-}
-
-/*--------------------------------------------------------------------------------------------------------------------Features--*/
-
-.container-wrapper-about{
-    padding-left: 0.313rem;
-    padding-right: 0.313rem;
-    background-color: floralwhite;
-    padding-top: 3.125rem;
-}
-
-.about-container p {
-    margin-bottom: 0;
-    padding-bottom: 3.125rem;
-}
-
-.features-header {
-    margin-bottom: 1.25rem;
-}
-
-/*--------------------------------------------------------------------------------------------------------------------Features--*/
-
-.container-wrapper-features {
-    background-color: #f0b2d6;
-    padding-top: 0.625rem;
-    padding-bottom: 0.625rem;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-}
-
 /*--------------------------------------------------------------------------------------------------------------------Footer--*/
 
 .container-wrapper-footer {
@@ -128,44 +43,120 @@ body {
     margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------------------------------------------------------------buttons--*/
+/*--------------------------------------------------------------------------------------------------------------------HOMEPAGE - Logo/Background--*/
 
-.btn-info {
+.bk-container {
+    height: 100vh;
+    background: url(../images/fob_flower.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display:flex;    
+    align-items:flex-end;
+    justify-content: center;
+    position: relative;
+    margin-top: -0.313rem;
+}
+
+.logo {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    margin-top: 2.5rem;
+}
+
+.jumbotron-main {
+    background-color: transparent;
+    padding-top: 43.75rem;
+    padding-bottom: 3.75rem;
+    margin-top: 0;
+    border-top-width: 3.125rem;
+}
+
+.main-header {
     font-weight: bold;
-    font-size: x-large;
-    border-radius: 3.125rem;
-    width: 12.5rem;
-    background-color: #117a8b;
-    border-color: #117a8b;
+    color: floralwhite;
+    margin-bottom: 1.875rem;
 }
 
-.btn-info:hover,
-.btn-info:active,
-.btn-info:focus,
-.btn-info:active:focus {
-    background-color: #18b7cf;
-    border-color: #18b7cf;
-    color: white;
+/*--------------------------------------------------------------------------------------------------------------------Home - About--*/
+
+.container-wrapper-about{
+    padding-left: 0.313rem;
+    padding-right: 0.313rem;
+    background-color: floralwhite;
+    padding-top: 3.125rem;
 }
 
-.btn-discover {
-    color: white;
-    font-weight: 600;
-    background-color: #eb358d;
-    border-radius: 0.625rem;
-    margin-top: 0.625rem;
+.about-container p {
+    margin-bottom: 0;
+    padding-bottom: 3.125rem;
 }
 
-.btn-discover:hover,
-.btn-discover:active,
-.btn-discover:focus,
-.btn-discover:active:focus {
-    background-color: #cf1770;
-    border-color: #cf1770;
-    color: white;
+.features-header {
+    margin-bottom: 1.25rem;
 }
 
-/*--------------------------------------------------------------------------------------------------------------------Forms--*/
+/*--------------------------------------------------------------------------------------------------------------------Home - Features--*/
+
+.container-wrapper-features {
+    background-color: #f0b2d6;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------MUSIC - Jumbotrons--*/
+
+.bk-music-container {
+    background-color: lightpink;
+}
+
+.jumbotron-audio-music {
+    background-color: transparent;
+    padding-top: 43.75rem;
+    padding-bottom: 3.75rem;
+    margin-top: 0;
+    border-top-width: 3.125rem;
+}
+
+.music-header {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 1.875rem;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------Music - Main Header--*/
+
+.embed-video {
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------CREDITS - Main Header--*/
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------CONTACT - Main Header--*/
+
+.bk-contact-container {
+    height: 100vh;
+    background-color: floralwhite;
+}
+
+.contact-text {
+    padding-top: 50px;
+    margin-bottom: 0px;
+    font-size: xxx-large;
+    font-weight: 700;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------Contact Form--*/
 
 form { 
     max-width: 420px;
@@ -217,3 +208,47 @@ textarea {
 [type="submit"]:hover {
     background:#313a3f;
 }
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------buttons--*/
+
+.btn-info {
+    font-weight: bold;
+    font-size: x-large;
+    border-radius: 3.125rem;
+    width: 12.5rem;
+    background-color: #117a8b;
+    border-color: #117a8b;
+}
+
+.btn-info:hover,
+.btn-info:active,
+.btn-info:focus,
+.btn-info:active:focus {
+    background-color: #18b7cf;
+    border-color: #18b7cf;
+    color: white;
+}
+
+.btn-discover {
+    color: white;
+    font-weight: 600;
+    background-color: #eb358d;
+    border-radius: 0.625rem;
+    margin-top: 0.625rem;
+}
+
+.btn-discover:hover,
+.btn-discover:active,
+.btn-discover:focus,
+.btn-discover:active:focus {
+    background-color: #cf1770;
+    border-color: #cf1770;
+    color: white;
+}
+
