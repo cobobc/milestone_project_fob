@@ -131,14 +131,48 @@ body {
 /*--------------------------------------------------------------------------------------------------------------------Music - Main Header--*/
 
 .embeded-video {
-
+    
 }
 
-/*--------------------------------------------------------------------------------------------------------------------CREDITS - Main Header--*/
+/*--------------------------------------------------------------------------------------------------------------------CREDITS - Main Artists--*/
+
+.main-artist-container {
+    background: url(../images/sky.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display:flex;    
+    align-items:flex-end;
+    justify-content: center;
+    position: relative;
+    margin-top: -0.313rem;
+}
+
+
+.main-artist {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
 
 .main-artist-header {
-    margin-top: 20px;
+    margin-top: 0;
     margin-bottom: 20px;
+    font-size: xxx-large;
+    font-weight: 500;
+    color: #343254;
+}
+
+.main-artist p {
+    color: #343254;
+    font-size: larger;
+}
+
+hr {
+    margin-top: 3rem;
+    border: 0;
+    border-top: 1px solid #343254;
+    width: 60%;
 }
 
 .main-artist-image {
@@ -151,31 +185,86 @@ body {
     height: auto;
     margin-bottom: 20px;
     margin-top: 20px;
+    border: 3px solid floralwhite;
+    border-radius: 20px;
 }
 
 .artist-info {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: floralwhite;
+    font-size: larger;
 }
 
 .main-artist-info {
     margin-top: 20px;
 }
 
+.main-artist-info h3 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.main-artist-info h4 {
+    font-weight: 200;
+    font-size: x-large;
+}
+
+.main-artist-info h5 {
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+}
+
+
 .tracks-list {
     list-style-type: none;
 }
 
-.dropdown {
+.main-social-platforms {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.artist-social {
+    color: floralwhite;
+    font-size: xx-large;
+    margin-top: 10px;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+}
 
 
 
+/*--------------------------------------------------------------------------------------------------------------------Credits - Other Artists--*/
+
+.collapse-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.other-artists-container {
+    background-color: #343254;
+    margin-top: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.other-artists-list {
+    align-items: center;
+    border-color: #343254;
+    background-color: #343254;
+    font-weight: 600;
+}
+
+.other-artists-list a {
+    color: white;
+}
 
 /*--------------------------------------------------------------------------------------------------------------------CONTACT - Main Header--*/
 
@@ -286,4 +375,32 @@ textarea {
     border-color: #cf1770;
     color: white;
 }
+
+.btn-credits {
+    background-color: #343254;
+    border-color: #343254;
+    color: floralwhite;
+    box-shadow: none;
+    width: auto;
+    max-width: 100%;
+}
+
+.btn-credits:hover,
+.btn-credits:active,
+.btn-credits:focus,
+.btn-credits:active:focus {
+    background-color: #343254;
+    border-color: #343254;
+    color: white;
+}
+
+.btn-primary:focus {
+    box-shadow: none;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+
 
