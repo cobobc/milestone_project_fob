@@ -130,13 +130,48 @@ body {
 
 /*--------------------------------------------------------------------------------------------------------------------Music - Main Header--*/
 
-.embed-video {
+.embeded-video {
 
 }
 
 /*--------------------------------------------------------------------------------------------------------------------CREDITS - Main Header--*/
 
+.main-artist-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
+.main-artist-image {
+    text-align: center;
+}
+
+.artist-img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.artist-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-artist-info {
+    margin-top: 20px;
+}
+
+.tracks-list {
+    list-style-type: none;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
