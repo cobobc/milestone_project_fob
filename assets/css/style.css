@@ -9,7 +9,7 @@ body {
 
 .navbar {
     z-index: 1;
-    background-color: #1a1c1d;
+    background-color: #343254;
 }
 
 .nav-heading a {
@@ -20,7 +20,7 @@ body {
 /*--------------------------------------------------------------------------------------------------------------------Footer--*/
 
 .container-wrapper-footer {
-    background-color: #1a1c1d;
+    background-color: #343254;
     text-align: center;
     padding-top: 1.25rem;
     padding-bottom: 0.625rem;
@@ -108,18 +108,18 @@ body {
     padding-right: 1.25rem;
 }
 
-/*--------------------------------------------------------------------------------------------------------------------MUSIC - Jumbotrons--*/
+/*--------------------------------------------------------------------------------------------------------------------MUSIC - Main--*/
 
 .bk-music-container {
-    background-color: lightpink;
+    background: linear-gradient(#343254, #f0b2d6);
 }
 
-.jumbotron-audio-music {
-    background-color: transparent;
-    padding-top: 43.75rem;
-    padding-bottom: 3.75rem;
-    margin-top: 0;
-    border-top-width: 3.125rem;
+.shop-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .music-header {
@@ -128,15 +128,131 @@ body {
     margin-bottom: 1.875rem;
 }
 
-/*--------------------------------------------------------------------------------------------------------------------Music - Main Header--*/
+.audio-header {
+    padding-bottom: 20px;
+    font-weight: 400;
+    color: floralwhite;
+    padding-top: 50px;
+}
 
-.embeded-video {
-    
+.audio-paragraph {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    color: floralwhite;
+}
+
+.audio-paragraph a {
+    font-weight: 700;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 0.1px solid floralwhite;
+    width: auto;
+    max-width: 20%;
+    height: auto;
+}
+
+.audio-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fob-image-audio {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.fob-image-audio h5 {
+    color: floralwhite;
+    font-weight: 500;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.fob-image-audio img {
+    border-radius: 9px;
+    border: 1px solid floralwhite;
+}
+
+.audio-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------Music - Video--*/
+
+.video-container {
+    padding-left: 0px;
+    padding-right: 0px;
+    background: linear-gradient(#f0b2d6, #343254);
+    margin-top: -5px;
+}
+
+.video-position {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 75px;
+    padding-top: 15px;
+}
+
+.make-beats-header {
+    color: #343254;
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+
+.beat-tutorial {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-size: large;
+}
+
+iframe {
+    border-radius: 10px;
+    border: 1px solid floralwhite;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------GALLERY--*/
+
+.gallery h2 {
+    color: #343254;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+.hr-gallery {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 0.1px solid #343254;
+    width: auto;
+    max-width: 20%;
+    height: auto;
+}
+
+.img-gallery {
+    text-align: center;
+}
+
+.img-gallery img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------CREDITS - Main Artists--*/
 
-.main-artist-container {
+/* .main-artist-container {
     background: url(../images/sky.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -147,8 +263,11 @@ body {
     justify-content: center;
     position: relative;
     margin-top: -0.313rem;
-}
+} */
 
+.main-artist-container {
+    background: linear-gradient(#343254, #f0b2d6);
+}
 
 .main-artist {
     padding-bottom: 50px;
@@ -158,21 +277,14 @@ body {
 .main-artist-header {
     margin-top: 0;
     margin-bottom: 20px;
-    font-size: xxx-large;
-    font-weight: 500;
-    color: #343254;
+    font-size: xx-large;
+    font-weight: 400;
+    color: floralwhite;
 }
 
 .main-artist p {
-    color: #343254;
-    font-size: larger;
-}
-
-hr {
-    margin-top: 3rem;
-    border: 0;
-    border-top: 1px solid #343254;
-    width: 60%;
+    color: floralwhite;
+    padding-bottom: 30px;
 }
 
 .main-artist-image {
@@ -203,7 +315,6 @@ hr {
 
 .main-artist-info h3 {
     font-size: xx-large;
-    font-weight: bolder;
 }
 
 .main-artist-info h4 {
@@ -213,7 +324,6 @@ hr {
 
 .main-artist-info h5 {
     text-align: center;
-    font-size: larger;
     font-weight: 500;
 }
 
@@ -249,7 +359,7 @@ hr {
 } 
 
 .other-artists-container {
-    background-color: #343254;
+    background-color: #f0b2d6;
     margin-top: 0;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -276,8 +386,17 @@ hr {
 .contact-text {
     padding-top: 50px;
     margin-bottom: 0px;
-    font-size: xxx-large;
-    font-weight: 700;
+    font-size: xx-large;
+    font-weight: 500;
+    color: #343254;
+}
+
+.contact-paragraph {
+    color: #343254;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------Contact Form--*/
@@ -291,13 +410,13 @@ form {
 }
 
 .feedback-input {
-  color: #1a1c1d;
+  color: #343254;
   font-weight:500;
   font-size: 18px;
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border:2px solid #1a1c1d;
+  border:2px solid #343254;
   padding: 13px;
   margin-bottom: 15px;
   width:100%;
@@ -306,7 +425,7 @@ form {
 }
 
 .feedback-input:focus { 
-    border:2px solid #1a1c1d;
+    border:2px solid #343254;
  }
 
 textarea {
@@ -317,7 +436,7 @@ textarea {
 
 [type="submit"] {
   width: 100%;
-  background:#1a1c1d;
+  background:#343254;
   border-radius:5px;
   border:0;
   cursor:pointer;
@@ -330,7 +449,7 @@ textarea {
   font-weight:700;
 }
 [type="submit"]:hover {
-    background:#313a3f;
+    background:#45436d;
 }
 
 
@@ -358,6 +477,27 @@ textarea {
     border-color: #18b7cf;
     color: white;
 }
+
+.btn-info-music {
+    font-weight: bold;
+    font-size: x-large;
+    border-radius: 3.125rem;
+    width: 12.5rem;
+    background-color: #343254;
+    border-color: floralwhite;
+    color: floralwhite;
+}
+
+.btn-info-music:hover,
+.btn-info-music:active,
+.btn-info-music:focus,
+.btn-info-music:active:focus {
+    background-color: #18b7cf;
+    border-color: #18b7cf;
+    color: white;
+}
+
+
 
 .btn-discover {
     color: white;

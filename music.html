@@ -22,13 +22,16 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Music</a>
+                        <a class="nav-link" href="#">Music <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Credits</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
@@ -40,70 +43,83 @@
         <div class="container-fluid bk-music-container">   
             <section class="audios">
                 <h2 class="audio-header text-uppercase text-center">FOB Beats Taster</h2>
-                    <ul class="audio-samples">
-                        <li>
-                            <h5>Are You Lost?</h5>
-                            <img src="assets/images/are_u_lost_2.jpg" alt="Are You Lost?">
-                            <audio controls>
-                                <source src="assets/audios/are_u_lost_fob.mp3" type="audio/mp3">
-                                Your browser does not support the audio element.
-                            </audio>
-                        </li>
-                        <li>
-                            <h5>Inky</h5>
-                            <img src="assets/images/inky_1.jpg" alt="Inky">
-                            <audio controls>
-                                <source src="assets/audios/inky_fob.mp3" type="audio/mp3">
-                                Your browser does not support the audio element.
-                            </audio>
-                        </li>
-                        <li>
-                            <h5>Ping Pong Piano</h5>
-                            <img src="assets/images/ping_pong_piano_1.jpg" alt="Ping Pong Piano">
-                            <audio controls>
-                                <source src="assets/audios/ping_pong_piano_fob.wav" type="audio/wav">
-                                Your browser does not support the audio element.
-                            </audio>
-                        </li>
-                        <li>
-                            <h5>Why Cry</h5>
-                            <img src="assets/images/why_cry_1.gif" alt="Why Cry">
-                            <audio controls>
-                                <source src="assets/audios/why_cry_fob.mp3" type="audio/mp3">
-                                Your browser does not support the audio element.
-                            </audio>
-                        </li>
-                    </ul>
+                <p class="text-center audio-paragraph">Check out just some of the beats FOB has created. Head over to FOBs <a href="https://soundcloud.com/prodbyfob">SOUNDCLOUD</a> to check out more or
+                select <b>Shop Now</b> below to buy any of FOBs beats.</p>
+                <hr class="music-hr">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 audio-image">
+                            <div class="fob-image-audio">
+                                <h5 class="text-center">Are You Lost?</h5>
+                                    <img src="assets/images/are_u_lost_2.jpg" alt="Are You Lost?">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 audio-controls">
+                            <div class="fob-audio">
+                                <audio controls>
+                                    <source src="assets/audios/are_u_lost_fob.mp3" type="audio/mp3">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 audio-image">
+                            <div class="fob-image-audio">
+                                <h5 class="text-center">Inky</h5>
+                                    <img src="assets/images/inky_1.jpg" alt="Inky">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 audio-controls">
+                            <div class="fob-audio">
+                                <audio controls>
+                                    <source src="assets/audios/inky_fob.mp3" type="audio/mp3">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 audio-image">
+                            <div class="fob-image-audio">
+                                <h5 class="text-center">Ping Pong Piano</h5>
+                                    <img src="assets/images/ping_pong_piano_1.jpg" alt="Ping Pong Piano">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 audio-controls">
+                            <div class="fob-audio">
+                                <audio controls>
+                                    <source src="assets/audios/ping_pong_piano_fob.wav" type="audio/wav">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 audio-image">
+                            <div class="fob-image-audio">
+                                <h5 class="text-center">Why Cry</h5>
+                                    <img src="assets/images/why_cry_1.gif" alt="Why Cry">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 audio-controls">
+                            <div class="fob-audio">
+                                <audio controls>
+                                    <source src="assets/audios/why_cry_fob.mp3" type="audio/mp3">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                        </div>
+                    </div>
             </section>
-            <section class="callout jumbotron-audio-music text-center">
-                <h2 class="music-header d-none d-sm-inline text-uppercase">Beats for sale</h2><br><br>
-                <button type="button" class="btn btn-info" href="#">Shop Now</button>
-            </section>
+            <div class="shop-button">
+                <button type="button" class="btn btn-info-music" href="#">Shop Now</button>
+            </div>
         </div>
         <!------------------------------------------------------------------------------------------------------------------------------Embeded YouTube video-->
-        <div class="container-fluid my-5">
+        <div class="container-fluid video-container">
             <section class="embed-video">
-                <div class="col-sm my-5">
-                    <h2 class="text-uppercase text-center">how fob makes his beats</h2>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7ovfnyh51-k?start=944" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="embeded-video" allowfullscreen></iframe>
+                <div class="col-sm">
+                    <h2 class="text-uppercase text-center make-beats-header">how fob makes his beats</h2>
+                        <p class="text-center beat-tutorial">Check out this step by step tutorial on how FOB makes his beats!</p>
+                        <hr>
+                        <div class="video-position">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/7ovfnyh51-k?start=944" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="embeded-video" allowfullscreen></iframe>
+                        </div>
                 </div>
-            </section>
-        </div>
-        <!------------------------------------------------------------------------------------------------------------------------------Gallery-->
-        <div class="container-fluid my-5">
-            <section class="gallery">
-                <h2 class="text-uppercase text-center">fob gallery</h2>
-                        <ul class="list-inline gallery-list">
-                            <li class="list-inline-item">
-                                <img src="assets/images/fob_bridge_s.jpg" alt="FOB gallery 1">
-                            </li>
-                            <li class="list-inline-item">
-                                <img src="assets/images/fob_land_2s.jpg" alt="FOB gallery 2">
-                            </li>
-                            <li class="list-inline-item">
-                                <img src="assets/images/fob_sea_1s.jpg" alt="FOB gallery 3">
-                            </li>
-                        </ul>
             </section>
         </div>
         <!------------------------------------------------------------------------------------------------------------------------------Footer-->
