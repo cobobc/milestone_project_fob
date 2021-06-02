@@ -400,7 +400,7 @@ form {
   line-height: 2.3rem;
   background-color: transparent;
   border: 0.125rem solid #343254;
-  padding: 0.813;
+  padding: 0;
   margin-bottom: 0.938rem;
   width: 100%;
   box-sizing: border-box;
@@ -498,6 +498,7 @@ textarea {
     box-shadow: none;
     width: auto;
     max-width: 100%;
+    font-size: x-large;
 }
 
 .btn-credits:hover,
