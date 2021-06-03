@@ -143,7 +143,7 @@ body {
 hr {
     margin-top: 1.25rem;
     margin-bottom: 1.875rem;
-    border: 0.006rem solid floralwhite;
+    border: 1px solid floralwhite;
     width: auto;
     max-width: 20%;
     height: auto;
@@ -169,7 +169,7 @@ hr {
 
 .fob-image-audio img {
     border-radius: 0.563rem;
-    border: 0.063rem solid floralwhite;
+    border: 1px solid floralwhite;
 }
 
 .audio-controls {
@@ -210,7 +210,7 @@ hr {
 
 iframe {
     border-radius: 0.625rem;
-    border: 0.063rem solid floralwhite;
+    border: 1px solid floralwhite;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------GALLERY--*/
@@ -224,7 +224,7 @@ iframe {
 .hr-gallery {
     margin-top: 1.25rem;
     margin-bottom: 1.875rem;
-    border: 0.006rem solid #343254;
+    border: 1px solid #343254;
     width: auto;
     max-width: 20%;
     height: auto;
@@ -276,7 +276,7 @@ iframe {
     height: auto;
     margin-bottom: 1.25rem;
     margin-top: 1.25rem;
-    border: 0.063rem solid floralwhite;
+    border: 1px solid floralwhite;
     border-radius: 1.25rem;
 }
 
@@ -401,7 +401,7 @@ form {
 }
 
 .feedback-input:focus { 
-    border: 0.125rem solid #343254;
+    border: 2px solid #343254;
  }
 
 textarea {
