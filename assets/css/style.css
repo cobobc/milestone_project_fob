@@ -425,7 +425,7 @@ textarea {
 
 .btn-info {
     font-weight: bold;
-    font-size: x-large;
+    font-size: 1.5rem;
     border-radius: 3.125rem;
     width: 12.5rem;
     background-color: #117a8b;
@@ -443,7 +443,7 @@ textarea {
 
 .btn-info-music {
     font-weight: bold;
-    font-size: x-large;
+    font-size: 1.5rem;
     border-radius: 3.125rem;
     width: 12.5rem;
     background-color: #343254;
@@ -484,7 +484,7 @@ textarea {
     box-shadow: none;
     width: auto;
     max-width: 100%;
-    font-size: x-large;
+    font-size: 1.5rem;
 }
 
 .btn-credits:hover,
