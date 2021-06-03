@@ -16,32 +16,28 @@ and songwriting service. Coupled with a portal so potential customer can be dire
 
 ## User Experience (UX)
 
-### The users
+### User stories
 
-#### First Time users
+#### First Time User Goals
 
-The first time user wants the following:
+*   As a First Time user, I want to view clear and concise content on mobile.
+*   As a First Time user, I want to learn and understand what FOB Beats is about.
+*   As a First Time user, I want to understand the services offered.
+*   As a First Time user, I want to seemlessly navigated through the 5 pages of the site.
+*   As a First Time user, I want to easily connect with FOBs social platforms.
 
-*   View clear and concise content on mobile.
-*   Learn and understand what FOB Beats is about.
-*   Understand the services offered.
-*   Seemlessly navigated through the 5 pages of the site.
-*   Easily connect with FOBs social platforms.
+#### Returning User Goals
 
-#### Returning Users
+*   As a Returning user, I want to purchase FOBs beats through the external link portal on the site.
+*   As a Returning user, I want to watch and take notes on FOBs step by step beat making tutorial.
+*   As a Returning user, I want to book a recording seesion via the contact form.
 
-The returning user wants the following:
-
-*   Purchase FOBs beats through the external link portal on the site.
-*   Watch and take notes on FOBs step by step beat making tutorial.
-*   Book a recording seesion via the contact form.
-
-#### Frequent Users
+#### Frequent User Goals
 
 The frequent user wants the following:
 
-*   Use FOBs credit list as a continuous muscial source
-*   To see when new beats arrive on the site
+*   As a Frequent user, I want to use FOBs credit list as a continuous muscial source.
+*   As a Frequent user, I want to check when new beats arrive on the site.
 
 ### Design
 
@@ -184,66 +180,93 @@ The features througout the site are to have a minimalist approach - less is more
 
 #### Validation Results
 
+The HTML and CSS validators 4 errors
+
 *   line 49 Error: The element button must not appear as a descendant of the a element. (index.html)
 
 
-*   Error: The frameborder attribute on the iframe element is obsolete. Use CSS instead.
-
-    From line 120, column 29; to line 120, column 299 (music)
+*   line 120 Error: The frameborder attribute on the iframe element is obsolete. Use CSS instead. (music.html)
 
 
-*   Error: Element h3 not allowed as child of element button in this context. (Suppressing further errors from this subtree.)
+*   line 158 Error: Element h3 not allowed as child of element button in this context. (Suppressing further errors from this subtree.) (credits.html)
 
-    From line 158, column 33; to line 158, column 36 (credits)
+*   style.css Error: xxx-large cannot be used as a font size
 
-
-*   Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
-
-    From line 153, column 13; to line 153, column 43 (credits)
+    Resolution - all text based size values were removed and replaced with their respective rem equivalent.
 
 
-*   403	.feedback-input	Value Error : padding only 0 can be a unit. You must put a unit after your number : 0.813 (css)
 
 
-#### User Results
+#### User Goal Results
 
 ##### First Time users
 
-The first time user wants the following:
+*   As a First Time user, I want to view clear and concise content on mobile - 
 
-*   View clear and concise content on mobile
-    *   ...
-*   Learn and understand what FOB Beats is about.
-    *   ...
-*   Understand the services offered.
-    *   ...
-*   Seemlessly navigated through the 5 pages of the site.
-    *   ...
-*   Easily connect with FOBs social platforms.
-    *   ...
+*   As a First Time user, I want to learn and understand what FOB Beats is about -
+
+*   As a First Time user, I want to understand the services offered -
+
+*   As a First Time user, I want to seemlessly navigated through the 5 pages of the site -
+
+*   As a First Time user, I want to easily connect with FOBs social platforms -
 
 #### Returning Users
 
-The returning user wants the following:
+*   As a Returning user, I want to purchase FOBs beats through the external link portal on the site -
 
-*   Purchase FOBs beats through the external link portal on the site.
-    *   ...
-*   Watch and take notes on FOBs step by step beat making tutorial.
-    *   ...
-*   Book a recording seesion via the contact form.
-    *   ...
+*   As a Returning user, I want to watch and take notes on FOBs step by step beat making tutorial -
+
+*   As a Returning user, I want to book a recording seesion via the contact form -
+
 
 #### Frequent Users
 
-The frequent user wants the following:
+*   As a Frequent user, I want to use FOBs credit list as a continuous muscial source -
 
-*   Use FOBs credit list as a continuous muscial source
-    *   ...
-*   To see when new beats arrive on the site
-    *   ...
+*   As a Frequent user, I want to check when new beats arrive on the site -
 
 
-## Deployment?
+## Deployment
+
+### Project Creation
+
+Created the project by:
+
+1.  Navigating to my [user profile](https://github.com/cobobc).
+2.  Selecting the **Respositories** tab.
+3.  Selected the **New** button.
+4.  Under Repository tempate, select the Code Institute template from the dropdown menu.
+5.  Entered milestone_project_fob for the **Repository name**.
+6.  Select **Create Repository**. 
+
+### During the Project
+
+The following commands were used throughout the project:
+
+*   git add . - This command was used to add files to the staging area before commiting.
+*   git commit -m "commit message explaining the updates" - This command was used to to commit changes to the local repository.
+*   git push - This command is used to push all commited changes to the GitHub repository.
+
+### Using Github Pages
+
+1.  Navigate to the GitHub [Repository](https://github.com/cobobc/milestone_project_fob).
+1.  Select the **Settings** Tab.
+1.  Scroll Down to the Git Hub Pages Heading.
+1.  Select **Master Branch** as the source.
+1.  Select the **Save button**.
+1.  Select on the link to go to the live deployed page.
+
+### Run Locally
+
+1.  Navigate to the GitHub [Repository](https://github.com/cobobc/milestone_project_fob).
+1.  Select the Code drop down menu.
+1.  Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the HTTPS dialogue box.
+1.  Open your developement editor of choice and open a terminal window in a directory of your choice.
+1.  Use the 'git clone' command in terminal followed by the copied git URL.
+1.  A clone of the project will be created locally on your machine.
+
+
 
 ## Credits
 
