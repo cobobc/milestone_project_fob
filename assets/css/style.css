@@ -263,6 +263,8 @@ iframe {
 .main-artist p {
     color: floralwhite;
     padding-bottom: 1.875rem;
+    padding-top: .938rem;
+}
 }
 
 .main-artist-image {
