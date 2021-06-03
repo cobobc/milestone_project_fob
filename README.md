@@ -3,11 +3,11 @@
 
 ## Purpose 
 
-The purpose of this site is to complete the first Milestone Project for the Code Institute's Full Stack Developer course and can can be found [here](insert link).
+The purpose of this site is to complete the first Milestone Project for the Code Institute's Full Stack Developer course and can can be found [here](https://cobobc.github.io/milestone_project_fob/index.html).
 
 ### FOB Beats Responsive website
 
-![FOB site overview](assets/images/read_me/read_me_1.png)
+![FOB site overview](assets/images/read_me/read_me_img.png)
 
 Fionn O'Brien (FOB) requested a website to showcase his music production business. FOB requires a respnsive website to provide 
 users with information about his music production, mastering, beat making,
