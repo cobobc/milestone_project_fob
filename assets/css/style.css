@@ -291,12 +291,11 @@ iframe {
 }
 
 .main-artist-info h3 {
-    font-size: xx-large;
+    font-size: 2rem;
 }
 
 .main-artist-info h4 {
     font-weight: 200;
-    font-size: x-large;
 }
 
 .main-artist-info h5 {
@@ -316,7 +315,7 @@ iframe {
 
 .artist-social {
     color: floralwhite;
-    font-size: xx-large;
+    font-size: 2rem;
     margin-top: .625rem;
     padding: .625rem;
 }
@@ -357,7 +356,6 @@ iframe {
 .contact-text {
     padding-top: 3.125rem;
     margin-bottom: 0;
-    font-size: xx-large;
     font-weight: 500;
     color: #343254;
 }
