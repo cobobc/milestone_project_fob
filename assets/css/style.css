@@ -22,14 +22,14 @@ body {
     background-color: #343254;
     text-align: center;
     padding-top: 1.25rem;
-    padding-bottom: 0.625rem;
+    padding-bottom: .625rem;
 }    
 
 .social-footer a {
     font-size: xxx-large;
     color: floralwhite;
-    padding-left: 0.625rem;
-    padding-right: 0.625rem;
+    padding-left: .625rem;
+    padding-right: .625rem;
 }
 
 .footer-container h6 {
@@ -82,8 +82,8 @@ body {
 /*--------------------------------------------------------------------------------------------------------------------Home - About--*/
 
 .container-wrapper-about{
-    padding-left: 0.313rem;
-    padding-right: 0.313rem;
+    padding-left: .313rem;
+    padding-right: .313rem;
     background-color: floralwhite;
     padding-top: 3.125rem;
 }
@@ -132,7 +132,7 @@ body {
 }
 
 .audio-paragraph {
-    padding: 0.625rem 1.875rem 1.875rem;
+    padding: .625rem 1.875rem 1.875rem;
     color: floralwhite;
 }
 
@@ -163,12 +163,12 @@ hr {
 .fob-image-audio h5 {
     color: floralwhite;
     font-weight: 500;
-    padding-bottom: 0.625rem;
-    padding-top: 0.625rem;
+    padding-bottom: .625rem;
+    padding-top: .625rem;
 }
 
 .fob-image-audio img {
-    border-radius: 0.563rem;
+    border-radius: .563rem;
     border: 1px solid floralwhite;
 }
 
@@ -192,13 +192,13 @@ hr {
     align-items: center;
     justify-content: center;
     padding-bottom: 4.688rem;
-    padding-top: 0.938rem;
+    padding-top: .938rem;
 }
 
 .make-beats-header {
     color: #343254;
     font-weight: 600;
-    padding-bottom: 0.625rem;
+    padding-bottom: .625rem;
     padding-top: 3.125rem;
 }
 
@@ -209,7 +209,7 @@ hr {
 }
 
 iframe {
-    border-radius: 0.625rem;
+    border-radius: .625rem;
     border: 1px solid floralwhite;
 }
 
@@ -238,8 +238,8 @@ iframe {
     width: auto;
     max-width: 100%;
     height: auto;
-    padding-top: 0.625rem;
-    padding-bottom: 0.625rem;
+    padding-top: .625rem;
+    padding-bottom: .625rem;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------CREDITS - Main Artists--*/
@@ -319,11 +319,8 @@ iframe {
 .artist-social {
     color: floralwhite;
     font-size: xx-large;
-    margin-top: 0.625rem;
-    padding-left: 0.625rem;
-    padding-right: 0.625rem;
-    padding-top: 0.625rem;
-    padding-bottom: 0.625rem;
+    margin-top: .625rem;
+    padding: .625rem;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------Credits - Other Artists--*/
@@ -371,8 +368,8 @@ iframe {
     color: #343254;
     margin-bottom: 0;
     padding-top: 1.25rem;
-    padding-right: 0.625rem;
-    padding-left: 0.625rem;
+    padding-right: .625rem;
+    padding-left: .625rem;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------Contact Form--*/
@@ -389,12 +386,12 @@ form {
   color: #343254;
   font-weight: 500;
   font-size: 1.125rem;
-  border-radius: 0.313rem;
+  border-radius: .313rem;
   line-height: 2.3rem;
   background-color: transparent;
-  border: 0.125rem solid #343254;
+  border: 2px solid #343254;
   padding: 0;
-  margin-bottom: 0.938rem;
+  margin-bottom: .938rem;
   width: 100%;
   box-sizing: border-box;
   outline: 0;
@@ -413,13 +410,13 @@ textarea {
 [type="submit"] {
   width: 100%;
   background:#343254;
-  border-radius: 0.313rem;
+  border-radius: .313rem;
   border: 0;
   cursor: pointer;
   color:floralwhite;
   font-size: 1.5rem;
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
+  padding-top: .625rem;
+  padding-bottom: .625rem;
   transition: all 0.3s;
   margin-top: -0.25rem;
   font-weight: 700;
@@ -471,8 +468,8 @@ textarea {
     color: white;
     font-weight: 600;
     background-color: #eb358d;
-    border-radius: 0.625rem;
-    margin-top: 0.625rem;
+    border-radius: .625rem;
+    margin-top: .625rem;
 }
 
 .btn-discover:hover,
