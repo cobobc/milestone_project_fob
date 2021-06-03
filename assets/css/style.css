@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
-    
 }
 
 /*--------------------------------------------------------------------------------------------------------------------Navbar--*/
@@ -102,10 +101,7 @@ body {
 
 .container-wrapper-features {
     background-color: #f0b2d6;
-    padding-top: 0.625rem;
-    padding-bottom: 0.625rem;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+    padding: .625rem 1.25rem;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------MUSIC - Main--*/
