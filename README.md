@@ -165,13 +165,13 @@ The features througout the site are to have a minimalist approach - less is more
 
 ### Testing Strategy
 
-1.  Complete three whole site testing acting as a first time user, returning user and a frequent user.
-
-    **NOTE:** All tests will be condected for desktop, tablet and mobile.
+1.  Complete tests for user goals
 
 1.  Run all pages through the [W3C HTML Validator](https://validator.w3.org/).
 
 1.  Run all pages through the [W3C CSS Validator](http://www.css-validator.org/).
+
+1.  Run a lighthouse test for performance.
 
 
 ### Test Results
@@ -228,6 +228,16 @@ The second HTML and CSS validations produced 0 errors.
 *   As a Frequent user, I want to use FOBs credit list as a continuous muscial source -
 
 *   As a Frequent user, I want to check when new beats arrive on the site -
+
+
+### Lighthouse Test Results
+
+See the following test results:
+
+![Lighthouse results](assets/images/read_me/lighthouse_test.png)
+
+These test results indicate that the site peforms well overall and points to what areas could be improved to optimise the sites performance.
+Due to the time constaints of this project it is not feasible to further act on this. In a normal working situation time would be taken to optimise performance.
 
 
 ## Deployment
@@ -290,6 +300,6 @@ The YouTube video is owned by Xtract and permission was obtained to use this vid
 ### Acknowledgements
 
 I'd like to thank my mentor Spencer Baribell for his guidance, efficiency and positivity throughout my project.
-Thanks to fellow students @Kay Ellis and @Kevin O'Carroll for helping me through positional issues with the FOB logo on the homepage.
+Thanks to fellow students @Kay Ellis and @Kevin O'Carroll for helping me through positional issues with the FOB logo on the homepage on Slack.
 Thanks to my brother Mr. FOB (Fionn O'Brien) for providing content, setting out the goal of the website, and discussing the design of the site.
 
