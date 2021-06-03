@@ -56,7 +56,7 @@ FOB Beats has been in business for over 3 years so it has own logo and a great c
 
 #### Wireframes
 
-For complete wireframes see this [PDF](assets/images/read_me/Wireframes_draft.pdf)
+For complete wireframes see this [PDF](assets/images/read_me/Wireframes.pdf).
 
 
 ### Limitations
