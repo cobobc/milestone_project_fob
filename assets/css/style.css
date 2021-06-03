@@ -256,7 +256,6 @@ iframe {
 .main-artist-header {
     margin-top: 0;
     margin-bottom: 1.25rem;
-    font-size: xx-large;
     font-weight: 400;
     color: floralwhite;
 }
@@ -285,7 +284,6 @@ iframe {
     justify-content: center;
     align-items: center;
     color: floralwhite;
-    font-size: larger;
 }
 
 .main-artist-info {
