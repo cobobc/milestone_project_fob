@@ -5,7 +5,7 @@
 
 The purpose of this site is to complete the first Milestone Project for the Code Institute's Full Stack Developer course and can can be found [here](https://cobobc.github.io/milestone_project_fob/index.html).
 
-### FOB Beats Responsive website
+## FOB Beats Responsive website
 
 ![FOB site overview](assets/images/read_me/read_me_img.png)
 
