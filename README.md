@@ -43,7 +43,7 @@ The frequent user wants the following:
 
 #### Colour Scheme
 
-The main colours used are #343254 (purple), #f0b2d6, and floralwhite. These colours go well
+The main colours used are #343254 (purple), #f0b2d6 (pink), and floralwhite. These colours go well
 with the FOB Beat logo and the collection of images seen in the gallery page and the main image on the home page.
 
 #### Font
@@ -206,9 +206,9 @@ The second HTML and CSS validations produced 0 errors.
 
 *   As a First Time user, I want to view clear and concise content on mobile - Testing was performed to ensure there was not clusters of over information, well spaced and aesthically pleasing on tablet and mobile.
 
-*   As a First Time user, I want to learn and understand what FOB Beats is about - Testing was performed to verify enough information is uploaded to to tell the user about fob.
+*   As a First Time user, I want to learn and understand what FOB Beats is about - Testing was performed to verify enough information is uploaded to tell the user about fob.
 
-*   As a First Time user, I want to understand the services offered - Testing was performed to verify enough information is uploaded to to tell the user of the services FOB offers.
+*   As a First Time user, I want to understand the services offered - Testing was performed to verify enough information is uploaded to tell the user of the services FOB offers.
 
 *   As a First Time user, I want to seemlessly navigated through the 5 pages of the site - Testing was performed on all navigation links to ensure the user can seemlessly navigate throughout the site.
 
@@ -218,14 +218,14 @@ The second HTML and CSS validations produced 0 errors.
 
 *   As a Returning user, I want to purchase FOBs beats through the external link portal on the site - Testing was performed on both shop now links/buttons to snsure the user is taken to the external store in a new tab.
 
-*   As a Returning user, I want to watch and take notes on FOBs step by step beat making tutorial - Testing was performed on the embeded video to ensure that it start on the right time and the controls are easy to use.
+*   As a Returning user, I want to watch and take notes on FOBs step by step beat making tutorial - Testing was performed on the embeded video to ensure that it starts on the right time and the controls are easy to use.
 
 *   As a Returning user, I want to book a recording session via the contact form - Testing was performed to enusure that the contact form was responsive and the user can easily type and edit there details and/or queries. 
 
 
 #### Frequent Users
 
-*   As a Frequent user, I want to use FOBs credit list as a continuous muscial source - Testing was performed to enure the full credits list collapse feaure functions correctly and the all links to  the artists opened in a new tab.
+*   As a Frequent user, I want to use FOBs credit list as a continuous muscial source - Testing was performed to ensure the full credits list collapse feaure functions correctly and that all links to  the artists opened in a new tab.
 
 *   As a Frequent user, I want to check when new beats arrive on the site - Testing was performed to validate the audio controls functionality and that the link to FOB soundcloud opened in a new tab.
 
@@ -301,5 +301,5 @@ The YouTube video is owned by Xtract and permission was obtained to use this vid
 
 I'd like to thank my mentor Spencer Baribell for his guidance, efficiency and positivity throughout my project.
 Thanks to fellow students @Kay Ellis and @Kevin O'Carroll for helping me through positional issues with the FOB logo on the homepage on Slack.
-Thanks to my brother Mr. FOB (Fionn O'Brien) for providing content, setting out the goal of the website, and discussing the design of the site.
+Thanks to my brother, Mr. FOB (Fionn O'Brien), for providing content, setting out the goal of the website, and discussing the design of the site.
 
